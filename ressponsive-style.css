@@ -1,0 +1,103 @@
+@media (max-width:1300px){
+    /* 2 navbar*/
+    .header-wrapper .menu-navbar-nav{
+        width: auto;
+    }
+}
+
+@media (max-width:1230px){
+    /* 2 navbar*/
+    .header-wrapper .nav-item{
+        margin: 0 5px;
+    }
+    .header-wrapper .learn-more-btn{
+        padding: 10px 15px !important;
+    }
+}
+@media (max-width:1070px){
+    /* 2 navbar*/
+    .header-wrapper .nav-item .nav-link{
+        font-size: 17px;
+    }
+}
+@media (max-width:991px){
+    /* 2 navbar*/
+    .header-wrapper .navbar-brand img{
+        width: 130px;
+    }
+    .header-wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .header-wrapper .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+    .header-wrapper .learn-more-btn{
+        padding: 12px 20px !important;
+    }
+    .banner-section .banner-title{
+        font-size: 25px;
+    }
+    /* about section */
+    .about-wrapper .about-number{
+        margin: 20px auto;
+    }
+    .about-wrapper .about-title{
+        font-size: 25px;
+    }
+    .faq-wrapper .accordion-button{
+        font-size: 18px;
+    }
+}
+@media (max-width:767px){
+    /* 3 banner section*/
+    .banner-section{
+        padding: 100px 0 100px;
+    }
+    .banner-section .row{
+        flex-direction: column-reverse;
+    }
+    .banner-section .banner-title-text{
+        justify-content: center !important;
+        width: 100%;
+        font-size: 15px;
+    }
+    .banner-section .learn-more-btn-section{
+        justify-content: center !important;
+    }
+    /* feature section */
+    .feature-wrapper h3{
+        font-size: 15px;
+    }
+    .feature-wrapper .ft-text{
+        font-size: 12px;
+    }
+    .feature-wrapper .ft-1{
+        
+    }
+    /* free trail section */
+    .free-trail-section .free-title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+@media (max-width:154px){
+    /* 2 navbar*/
+    .header-wrapper .nav-item .nav-link{
+        font-size: 16px;
+    }
+    .header-wrapper .learn-more-btn{
+        font-size: 16px;
+        padding: 10px 10px !important;
+    }
+    .header-wrapper .navbar-collapse{
+        background: var(--bg-white);
+    }
+}
